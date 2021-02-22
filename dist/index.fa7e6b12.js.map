@@ -1,1 +1,0 @@
-{"mappings":"YAAA,IAAIA,EAAW,GAEfC,OAAOC,iBAAiB,QAAQ,WAC9BF,EAAI,cACJG,QAAQC,IAAIJ","sources":["./src/script/asdf.ts"],"sourcesContent":["let a:string = \"\"\n\nwindow.addEventListener('load', () => {\n  a = \"hello world\"\n  console.log(a)\n})"],"names":["a","window","addEventListener","console","log"],"version":3,"file":"index.fa7e6b12.js.map"}
