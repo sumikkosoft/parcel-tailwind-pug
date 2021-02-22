@@ -1,6 +1,6 @@
 let a:string = ""
 
 window.addEventListener('load', () => {
-  a = "無職"
+  a = "hello world"
   console.log(a)
 })
