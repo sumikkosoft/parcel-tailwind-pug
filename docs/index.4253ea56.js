@@ -1,0 +1,1 @@
+!function(){var o="";window.addEventListener("load",(function(){o="hello world",console.log(o)}))}();

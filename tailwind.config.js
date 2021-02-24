@@ -1,6 +1,8 @@
+const isProd = process.env["npm_lifecycle_event"] === "build" // Watch👀 https://github.com/parcel-bundler/parcel/issues/4503
+
 module.exports = {
   purge: {
-    enabled: process.env.NODE_ENV === 'production',
+    enabled: isProd,
     content: [
       './src/**/*.pug'
     ]
